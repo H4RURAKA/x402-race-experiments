@@ -54,8 +54,8 @@ npm run snack
 ## Confirmed Results
 | Service | Endpoint | Burst | Success | Evidence |
 | --- | --- | ---: | ---: | --- |
-| Mogami | `https://playground.mogami.tech/tip` | 10 | `6/10` | [JSON](evidence/mogami-2026-03-24-summary.json) |
-| Elsa | `https://x402-api.heyelsa.ai/api/search_token` | 10 | `2/10` | [JSON](evidence/elsa-2026-03-24-summary.json) |
+| Mogami | `https://playground.mogami.tech/tip` | 10 | `5/10` | [JSON](evidence/mogami-2026-03-24-summary.json) |
+| Elsa | `https://x402-api.heyelsa.ai/api/search_token` | 9 | `9/9` | [JSON](evidence/elsa-2026-03-24-summary.json) |
 | Heurist | `https://mesh.heurist.xyz/x402/agents/AskHeuristAgent/ask_heurist` | 10 | `1/10` | [JSON](evidence/heurist-2026-03-24-summary.json) |
 | Snack | `https://api.snack.money/payments/farcaster/pay` | 10 | `1/10` | [JSON](evidence/snack-2026-03-24-summary.json) |
 
