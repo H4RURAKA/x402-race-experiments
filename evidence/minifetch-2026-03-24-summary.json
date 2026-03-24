@@ -1,0 +1,96 @@
+{
+  "phase": "burst_summary",
+  "service": "minifetch-url-metadata",
+  "targetUrl": "https://minifetch.com/api/v1/x402/extract/url-metadata?url=https%3A%2F%2Fexample.com",
+  "method": "GET",
+  "probeStatus": 402,
+  "requirementsVia": "header:payment-required",
+  "x402Version": 2,
+  "burstSize": 10,
+  "successCount": 1,
+  "successRatio": "1/10",
+  "statusCounts": {
+    "200": 1,
+    "402": 9
+  },
+  "authorizer": "0x21DD3B6E6229853d51710f57a967E3e2E6EbcB62",
+  "nonce": "0xf3ae2a5357565a6e71ca2947cdbff198b8f6f2d818969f9e73f91d18ac06dbd0",
+  "accept": {
+    "network": "eip155:8453",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "payTo": "0xffA9155A0e4B3d8d42351Da226cC1feEe449686f",
+    "amount": "2000"
+  },
+  "results": [
+    {
+      "index": 0,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 1386,
+      "bodyPreview": "{\"error\":\"Settlement failed\",\"details\":\"settle_exact_failed_onchain\"}"
+    },
+    {
+      "index": 1,
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 1485,
+      "bodyPreview": "{\"success\":true,\"queryParameters\":{\"verbosity\":\"standard\",\"includeResponseBody\":false},\"results\":[{\"data\":{\"requestUrl\":"
+    },
+    {
+      "index": 2,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 2859,
+      "bodyPreview": "{\"error\":\"Settlement failed\",\"details\":\"invalid_payload\"}"
+    },
+    {
+      "index": 3,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 1680,
+      "bodyPreview": "{\"error\":\"Settlement failed\",\"details\":\"settle_exact_failed_onchain\"}"
+    },
+    {
+      "index": 4,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 2403,
+      "bodyPreview": "{\"error\":\"Settlement failed\",\"details\":\"settle_exact_failed_onchain\"}"
+    },
+    {
+      "index": 5,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 1721,
+      "bodyPreview": "{\"error\":\"Settlement failed\",\"details\":\"settle_exact_failed_onchain\"}"
+    },
+    {
+      "index": 6,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 1639,
+      "bodyPreview": "{\"error\":\"Settlement failed\",\"details\":\"settle_exact_failed_onchain\"}"
+    },
+    {
+      "index": 7,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 1706,
+      "bodyPreview": "{\"error\":\"Settlement failed\",\"details\":\"settle_exact_failed_onchain\"}"
+    },
+    {
+      "index": 8,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 4863,
+      "bodyPreview": "{\"error\":\"Settlement failed\",\"details\":\"invalid_exact_evm_payload_authorization_valid_before\"}"
+    },
+    {
+      "index": 9,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 4075,
+      "bodyPreview": "{\"error\":\"Settlement failed\",\"details\":\"invalid_payload\"}"
+    }
+  ]
+}

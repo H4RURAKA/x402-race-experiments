@@ -55,6 +55,7 @@ npm run snack
 | Mogami | `https://playground.mogami.tech/tip` | 10 | `6/10` | [JSON](evidence/mogami-2026-03-24-summary.json) |
 | Elsa | `https://x402-api.heyelsa.ai/api/search_token` | 10 | `2/10` | [JSON](evidence/elsa-2026-03-24-summary.json) |
 | Heurist | `https://mesh.heurist.xyz/x402/agents/AskHeuristAgent/ask_heurist` | 10 | `1/10` | [JSON](evidence/heurist-2026-03-24-summary.json) |
+| Minifetch | `https://minifetch.com/api/v1/x402/extract/url-metadata` | 10 | `1/10` | [JSON](evidence/minifetch-2026-03-24-summary.json) |
 | Snack | `https://api.snack.money/payments/farcaster/pay` | 10 | `1/10` | [JSON](evidence/snack-2026-03-24-summary.json) |
 
 ## Evidence Images
