@@ -1,0 +1,96 @@
+{
+  "phase": "burst_summary",
+  "service": "heurist-deep-research",
+  "targetUrl": "https://mesh.heurist.xyz/x402/agents/AskHeuristAgent/ask_heurist",
+  "method": "POST",
+  "probeStatus": 402,
+  "requirementsVia": "body",
+  "x402Version": 1,
+  "burstSize": 10,
+  "successCount": 1,
+  "successRatio": "1/10",
+  "statusCounts": {
+    "200": 1,
+    "402": 9
+  },
+  "authorizer": "0x21DD3B6E6229853d51710f57a967E3e2E6EbcB62",
+  "nonce": "0x48104891ad43b351124bd965995af228ac07ac7d31badf8d89dcbf8bb5e4b7bf",
+  "accept": {
+    "network": "base",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "payTo": "0x7d9d1821d15B9e0b8Ab98A058361233E255E405D",
+    "amount": "100000"
+  },
+  "results": [
+    {
+      "index": 0,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 832,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"existing_authorization\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"100"
+    },
+    {
+      "index": 1,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 832,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"existing_authorization\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"100"
+    },
+    {
+      "index": 2,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 830,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"existing_authorization\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"100"
+    },
+    {
+      "index": 3,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 829,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"existing_authorization\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"100"
+    },
+    {
+      "index": 4,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 828,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"existing_authorization\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"100"
+    },
+    {
+      "index": 5,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 831,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"existing_authorization\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"100"
+    },
+    {
+      "index": 6,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 832,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"existing_authorization\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"100"
+    },
+    {
+      "index": 7,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 832,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"existing_authorization\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"100"
+    },
+    {
+      "index": 8,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 831,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"existing_authorization\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"100"
+    },
+    {
+      "index": 9,
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 2061,
+      "bodyPreview": "{\"result\":{\"job_id\":\"01fcfa1d-e061-44fb-97b9-13750b52a376\",\"prompt\":\"Tell me the key risks in x402 payment verification "
+    }
+  ]
+}

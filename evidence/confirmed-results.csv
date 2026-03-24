@@ -1,0 +1,5 @@
+date_utc,service_name,target_url,method,burst_size,success_count,success_ratio,probe_status,x402_version,network,asset,pay_to,amount,summary_file,screenshot_file
+2026-03-24,mogami-playground-tip,https://playground.mogami.tech/tip,GET,10,6,6/10,402,2,eip155:8453,0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913,0x2306e12F56e45E698bFAfa9c5E7D4e77cDEb4d06,10000,mogami-2026-03-24-summary.json,evidence/images/mogami-race-result.png
+2026-03-24,elsa-search-token,https://x402-api.heyelsa.ai/api/search_token,POST,10,2,2/10,402,1,base,0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913,0xEcB6175395806A3781AE7E5bae6d0abcB214Ee4D,1000,elsa-2026-03-24-summary.json,evidence/images/elsa-race-result.png
+2026-03-24,heurist-deep-research,https://mesh.heurist.xyz/x402/agents/AskHeuristAgent/ask_heurist,POST,10,1,1/10,402,1,base,0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913,0x7d9d1821d15B9e0b8Ab98A058361233E255E405D,100000,heurist-2026-03-24-summary.json,
+2026-03-24,snack-farcaster-pay,https://api.snack.money/payments/farcaster/pay,POST,10,1,1/10,402,2,eip155:8453,0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913,0x1D4D0e82b6297b925869037E8568F3A60c0684CC,10000,snack-2026-03-24-summary.json,

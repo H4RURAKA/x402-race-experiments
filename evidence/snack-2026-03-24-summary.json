@@ -1,0 +1,96 @@
+{
+  "phase": "burst_summary",
+  "service": "snack-farcaster-pay",
+  "targetUrl": "https://api.snack.money/payments/farcaster/pay",
+  "method": "POST",
+  "probeStatus": 402,
+  "requirementsVia": "header:payment-required",
+  "x402Version": 2,
+  "burstSize": 10,
+  "successCount": 1,
+  "successRatio": "1/10",
+  "statusCounts": {
+    "200": 1,
+    "402": 9
+  },
+  "authorizer": "0x21DD3B6E6229853d51710f57a967E3e2E6EbcB62",
+  "nonce": "0xd5019f8cd4255017c24d9bb2e6bc3c95c3104ba4492a810ba456ac8d539c9137",
+  "accept": {
+    "network": "eip155:8453",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "payTo": "0x1D4D0e82b6297b925869037E8568F3A60c0684CC",
+    "amount": "10000"
+  },
+  "results": [
+    {
+      "index": 0,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 5309,
+      "bodyPreview": "{\"x402Version\":2,\"msg\":\"Failed to settle payment\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"eip155:8453\",\"amount\":\"10000\"," 
+    },
+    {
+      "index": 1,
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 1968,
+      "bodyPreview": "{\"code\":200,\"msg\":\"0.01 USDC sent successfully\",\"data\":{\"txn_id\":\"1774324499913\",\"amount\":0.01,\"receipt\":\"https://snack."
+    },
+    {
+      "index": 2,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 5252,
+      "bodyPreview": "{\"x402Version\":2,\"msg\":\"Failed to settle payment\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"eip155:8453\",\"amount\":\"10000\"," 
+    },
+    {
+      "index": 3,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 5823,
+      "bodyPreview": "{\"x402Version\":2,\"msg\":\"Failed to settle payment\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"eip155:8453\",\"amount\":\"10000\"," 
+    },
+    {
+      "index": 4,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 5616,
+      "bodyPreview": "{\"x402Version\":2,\"msg\":\"Failed to settle payment\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"eip155:8453\",\"amount\":\"10000\"," 
+    },
+    {
+      "index": 5,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 5672,
+      "bodyPreview": "{\"x402Version\":2,\"msg\":\"Failed to settle payment\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"eip155:8453\",\"amount\":\"10000\"," 
+    },
+    {
+      "index": 6,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 5718,
+      "bodyPreview": "{\"x402Version\":2,\"msg\":\"Failed to settle payment\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"eip155:8453\",\"amount\":\"10000\"," 
+    },
+    {
+      "index": 7,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 5909,
+      "bodyPreview": "{\"x402Version\":2,\"msg\":\"Failed to settle payment\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"eip155:8453\",\"amount\":\"10000\"," 
+    },
+    {
+      "index": 8,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 5716,
+      "bodyPreview": "{\"x402Version\":2,\"msg\":\"Failed to settle payment\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"eip155:8453\",\"amount\":\"10000\"," 
+    },
+    {
+      "index": 9,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 5614,
+      "bodyPreview": "{\"x402Version\":2,\"msg\":\"Failed to settle payment\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"eip155:8453\",\"amount\":\"10000\"," 
+    }
+  ]
+}

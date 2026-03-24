@@ -1,0 +1,96 @@
+{
+  "phase": "burst_summary",
+  "service": "mogami-playground-tip",
+  "targetUrl": "https://playground.mogami.tech/tip",
+  "method": "GET",
+  "probeStatus": 402,
+  "requirementsVia": "header:payment-required",
+  "x402Version": 2,
+  "burstSize": 10,
+  "successCount": 6,
+  "successRatio": "6/10",
+  "statusCounts": {
+    "200": 6,
+    "402": 4
+  },
+  "authorizer": "0x21DD3B6E6229853d51710f57a967E3e2E6EbcB62",
+  "nonce": "0x1dd6e3d058d8c9a0fa027cf21d9606c187fb00fcb66da4c3b65a7ea00c1cf172",
+  "accept": {
+    "network": "eip155:8453",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "payTo": "0x2306e12F56e45E698bFAfa9c5E7D4e77cDEb4d06",
+    "amount": "10000"
+  },
+  "results": [
+    {
+      "index": 0,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 16079,
+      "bodyPreview": ""
+    },
+    {
+      "index": 1,
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 16035,
+      "bodyPreview": "Thanks a lot from Mogami!"
+    },
+    {
+      "index": 2,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 16064,
+      "bodyPreview": ""
+    },
+    {
+      "index": 3,
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 16066,
+      "bodyPreview": "Thanks a lot from Mogami!"
+    },
+    {
+      "index": 4,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 16077,
+      "bodyPreview": ""
+    },
+    {
+      "index": 5,
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 16030,
+      "bodyPreview": "Thanks a lot from Mogami!"
+    },
+    {
+      "index": 6,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 1088,
+      "bodyPreview": ""
+    },
+    {
+      "index": 7,
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 16028,
+      "bodyPreview": "Thanks a lot from Mogami!"
+    },
+    {
+      "index": 8,
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 16114,
+      "bodyPreview": "Thanks a lot from Mogami!"
+    },
+    {
+      "index": 9,
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 16127,
+      "bodyPreview": "Thanks a lot from Mogami!"
+    }
+  ]
+}

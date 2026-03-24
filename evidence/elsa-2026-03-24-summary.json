@@ -1,0 +1,96 @@
+{
+  "phase": "burst_summary",
+  "service": "elsa-search-token",
+  "targetUrl": "https://x402-api.heyelsa.ai/api/search_token",
+  "method": "POST",
+  "probeStatus": 402,
+  "requirementsVia": "body",
+  "x402Version": 1,
+  "burstSize": 10,
+  "successCount": 2,
+  "successRatio": "2/10",
+  "statusCounts": {
+    "200": 2,
+    "402": 8
+  },
+  "authorizer": "0x21DD3B6E6229853d51710f57a967E3e2E6EbcB62",
+  "nonce": "0xa8dfee1be8fdfe3a515b14a178c6fc344e803a5d84b6d0647a7ad62f5a0597d6",
+  "accept": {
+    "network": "base",
+    "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "payTo": "0xEcB6175395806A3781AE7E5bae6d0abcB214Ee4D",
+    "amount": "1000"
+  },
+  "results": [
+    {
+      "index": 0,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 7241,
+      "bodyPreview": "{\"x402Version\":1,\"error\":{},\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resource\":\"http://"
+    },
+    {
+      "index": 1,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 1328,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
+    },
+    {
+      "index": 2,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 1230,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
+    },
+    {
+      "index": 3,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 1283,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
+    },
+    {
+      "index": 4,
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 6281,
+      "bodyPreview": "{\"success\":true,\"query\":\"USDC\",\"limit\":5,\"results\":[{\"symbol\":\"USDC\",\"name\":\"USDC\",\"address\":\"31566704\",\"chainId\":1,\"dec"
+    },
+    {
+      "index": 5,
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 6108,
+      "bodyPreview": "{\"success\":true,\"query\":\"USDC\",\"limit\":5,\"results\":[{\"symbol\":\"USDC\",\"name\":\"USDC\",\"address\":\"31566704\",\"chainId\":1,\"dec"
+    },
+    {
+      "index": 6,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 2205,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
+    },
+    {
+      "index": 7,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 1229,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
+    },
+    {
+      "index": 8,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 1227,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
+    },
+    {
+      "index": 9,
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 1228,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
+    }
+  ]
+}
