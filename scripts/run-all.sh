@@ -2,7 +2,7 @@
 set -u
 
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-SERVICES=(daydreams elsa firecrawl heurist mogami neynar snack zyte)
+SERVICES=(elsa heurist minifetch mogami neynar snack zyte)
 
 if [[ $# -gt 0 ]]; then
   SERVICES=("$@")

@@ -1,28 +1,22 @@
 # Services
 
-## Daydreams Images
-- Script: `services/daydreams-images-jobs.mjs`
-- Endpoint: `https://api-beta.daydreams.systems/v1/images/generations`
-- Method: `POST`
-- Main env: `DAYDREAMS_URL`, `DAYDREAMS_BODY_JSON`, `DAYDREAMS_MODEL`, `DAYDREAMS_PROMPT`, `DAYDREAMS_IMAGE_COUNT`, `DAYDREAMS_SIZE`, `DAYDREAMS_QUALITY`, `DAYDREAMS_RESPONSE_FORMAT`, `DAYDREAMS_BEARER`, `DAYDREAMS_INSECURE_TLS`
-
 ## Elsa Search Token
 - Script: `services/elsa-search-token.mjs`
 - Endpoint: `https://x402-api.heyelsa.ai/api/search_token`
 - Method: `POST`
 - Main env: `ELSA_URL`, `ELSA_BODY_JSON`, `ELSA_SYMBOL_OR_ADDRESS`, `ELSA_LIMIT`
 
-## Firecrawl Search
-- Script: `services/firecrawl-x402-search.mjs`
-- Endpoint: `https://api.firecrawl.dev/v1/x402/search`
-- Method: `POST`
-- Main env: `FIRECRAWL_URL`, `FIRECRAWL_BODY_JSON`, `FIRECRAWL_QUERY`, `FIRECRAWL_LIMIT`, `FIRECRAWL_BEARER`
-
 ## Heurist AskHeurist
 - Script: `services/heurist-deep-research.mjs`
 - Endpoint: `https://mesh.heurist.xyz/x402/agents/AskHeuristAgent/ask_heurist`
 - Method: `POST`
 - Main env: `HEURIST_URL`, `HEURIST_BODY_JSON`, `HEURIST_QUERY`
+
+## Minifetch URL Metadata
+- Script: `services/minifetch-url-metadata.mjs`
+- Endpoint: `https://minifetch.com/api/v1/x402/extract/url-metadata`
+- Method: `GET`
+- Main env: `MINIFETCH_URL`, `MINIFETCH_BODY_JSON`, `MINIFETCH_TARGET_URL`, `MINIFETCH_VERBOSITY`, `MINIFETCH_INCLUDE_RESPONSE_BODY`
 
 ## Mogami Tip
 - Script: `services/mogami-playground-tip.mjs`

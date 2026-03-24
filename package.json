@@ -7,15 +7,14 @@
     "ethers": "^6.16.0"
   },
   "scripts": {
-    "daydreams": "node services/daydreams-images-jobs.mjs",
     "elsa": "node services/elsa-search-token.mjs",
-    "firecrawl": "node services/firecrawl-x402-search.mjs",
     "heurist": "node services/heurist-deep-research.mjs",
+    "minifetch": "node services/minifetch-url-metadata.mjs",
     "mogami": "node services/mogami-playground-tip.mjs",
     "neynar": "node services/neynar-subscription-check.mjs",
     "snack": "node services/snack-farcaster-pay.mjs",
     "zyte": "node services/zyte-extract.mjs",
     "run:all": "bash scripts/run-all.sh",
-    "check:syntax": "node --check lib/x402-race-lib.mjs && node --check services/daydreams-images-jobs.mjs && node --check services/elsa-search-token.mjs && node --check services/firecrawl-x402-search.mjs && node --check services/heurist-deep-research.mjs && node --check services/mogami-playground-tip.mjs && node --check services/neynar-subscription-check.mjs && node --check services/snack-farcaster-pay.mjs && node --check services/zyte-extract.mjs && bash -n scripts/run-all.sh"
+    "check:syntax": "node --check lib/x402-race-lib.mjs && node --check services/elsa-search-token.mjs && node --check services/heurist-deep-research.mjs && node --check services/minifetch-url-metadata.mjs && node --check services/mogami-playground-tip.mjs && node --check services/neynar-subscription-check.mjs && node --check services/snack-farcaster-pay.mjs && node --check services/zyte-extract.mjs && bash -n scripts/run-all.sh"
   }
 }
