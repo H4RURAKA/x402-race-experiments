@@ -14,7 +14,7 @@
     "402": 8
   },
   "authorizer": "0x21DD3B6E6229853d51710f57a967E3e2E6EbcB62",
-  "nonce": "0xa8dfee1be8fdfe3a515b14a178c6fc344e803a5d84b6d0647a7ad62f5a0597d6",
+  "nonce": "0xbc7afb515d2493c3c818a88c574d5ab12600db5947af15daffd00231c23c4e58",
   "accept": {
     "network": "base",
     "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -26,70 +26,70 @@
       "index": 0,
       "status": 402,
       "ok": false,
-      "elapsedMs": 7241,
-      "bodyPreview": "{\"x402Version\":1,\"error\":{},\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resource\":\"http://"
+      "elapsedMs": 898,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
     },
     {
       "index": 1,
-      "status": 402,
-      "ok": false,
-      "elapsedMs": 1328,
-      "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 5981,
+      "bodyPreview": "{\"success\":true,\"query\":\"USDC\",\"limit\":5,\"results\":[{\"symbol\":\"USDC\",\"name\":\"USDC\",\"address\":\"31566704\",\"chainId\":1,\"dec"
     },
     {
       "index": 2,
       "status": 402,
       "ok": false,
-      "elapsedMs": 1230,
+      "elapsedMs": 1245,
       "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
     },
     {
       "index": 3,
       "status": 402,
       "ok": false,
-      "elapsedMs": 1283,
+      "elapsedMs": 915,
       "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
     },
     {
       "index": 4,
-      "status": 200,
-      "ok": true,
-      "elapsedMs": 6281,
-      "bodyPreview": "{\"success\":true,\"query\":\"USDC\",\"limit\":5,\"results\":[{\"symbol\":\"USDC\",\"name\":\"USDC\",\"address\":\"31566704\",\"chainId\":1,\"dec"
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 893,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
     },
     {
       "index": 5,
-      "status": 200,
-      "ok": true,
-      "elapsedMs": 6108,
-      "bodyPreview": "{\"success\":true,\"query\":\"USDC\",\"limit\":5,\"results\":[{\"symbol\":\"USDC\",\"name\":\"USDC\",\"address\":\"31566704\",\"chainId\":1,\"dec"
+      "status": 402,
+      "ok": false,
+      "elapsedMs": 953,
+      "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
     },
     {
       "index": 6,
       "status": 402,
       "ok": false,
-      "elapsedMs": 2205,
+      "elapsedMs": 1010,
       "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
     },
     {
       "index": 7,
-      "status": 402,
-      "ok": false,
-      "elapsedMs": 1229,
-      "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
+      "status": 200,
+      "ok": true,
+      "elapsedMs": 5980,
+      "bodyPreview": "{\"success\":true,\"query\":\"USDC\",\"limit\":5,\"results\":[{\"symbol\":\"USDC\",\"name\":\"USDC\",\"address\":\"31566704\",\"chainId\":1,\"dec"
     },
     {
       "index": 8,
       "status": 402,
       "ok": false,
-      "elapsedMs": 1227,
+      "elapsedMs": 1430,
       "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
     },
     {
       "index": 9,
       "status": 402,
       "ok": false,
-      "elapsedMs": 1228,
+      "elapsedMs": 936,
       "bodyPreview": "{\"x402Version\":1,\"error\":\"already known\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"1000\",\"resou"
     }
   ]
