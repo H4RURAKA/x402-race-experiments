@@ -15,13 +15,13 @@ Public artifact for black-box x402 replay-race experiments against real x402-pro
 - Public evidence files under `evidence/`
 
 ## Included Services
-- Elsa Search Token
-- Heurist AskHeurist
-- Minifetch URL Metadata
-- Mogami Tip
-- Neynar Subscription Check
-- Snack Farcaster Pay
-- Zyte Extract
+- [Elsa](https://x402.heyelsa.ai/)
+- [Heurist](https://mesh.heurist.ai/)
+- [Minifetch](https://minifetch.com/)
+- [Mogami](https://playground.mogami.tech/)
+- [Neynar](https://neynar.com/)
+- [Snack](https://api.snack.money/docs)
+- [Zyte](https://python-zyte-api.readthedocs.io/en/stable/use/x402.html)
 
 ## Repository Layout
 - `lib/x402-race-lib.mjs`: shared probe, signature, and burst runner
